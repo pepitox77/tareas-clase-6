@@ -1,0 +1,4 @@
+.integrante {
+    display: flex;
+    flex-direction: column;
+  }
