@@ -9,15 +9,19 @@
 </head>
 <body>
     <button id="crear">crear</button>
+    <form id="formulario" onsubmit="return false">
     <button id="quitar">quitar</button>
     <button id="boton-calcular">calcular</button>
-    <form id="formulario"></form>
+</form>
+<ul id="errores">
+</ul>
     <div>
-        <label id="salario-anual-mayor"></label>
-        <label id="salario-anual-menor"></label>
-        <label id="salario-anual-promedio"></label>
-        <label id="salario-mensual-promedio"></label>
+        <label class="resultado" id="salario-anual-mayor"></label>
+        <label class="resultado" id="salario-anual-menor"></label>
+        <label class="resultado" id="salario-anual-promedio"></label>
+        <label class="resultado" id="salario-mensual-promedio"></label>
     </div>
     <script src='tarea-2.js'></script>
+    <script src='pruebas.js'></script>
 </body>
 </html>
