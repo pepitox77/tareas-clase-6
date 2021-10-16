@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='tarea-1.css'>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="tarea-1.css" />
+  </head>
+  <body>
     <form id="lista-integrantes" onsubmit="return false">
-    <label for="cantidad-integrantes">Ingrese la cantidad de integrantes</label>
-    <input name="integrantes" type="number" id="cantidad-integrantes"/>
-    <button id="ingresar">Ingresar</button>
+      <label for="cantidad-integrantes"
+        >Ingrese la cantidad de integrantes</label
+      >
+      <input name="integrantes" type="number" id="cantidad-integrantes" />
+      <button id="ingresar">Ingresar</button>
 
-    <input id="reset" type="reset" value="Reset">
+      <input id="reset" type="reset" value="Reset" />
 
- 
-    
-    <div class="edad-resultado">
-        <p><label id="edad-menor" name="edad-resultado" class="edad-resultado"></label></p>
-        <p><label id="edad-mayor" name="edad-resultado" class="edad-resultado"></label></p>
-        <p><label id="edad-promedio" name="edad-resultado" class="edad-resultado"></label></p>
-    </div>
+      <div class="edad-resultado">
+        <p>
+          <label
+            id="edad-menor"
+            name="edad-resultado"
+            class="edad-resultado"
+          ></label>
+        </p>
+        <p>
+          <label
+            id="edad-mayor"
+            name="edad-resultado"
+            class="edad-resultado"
+          ></label>
+        </p>
+        <p>
+          <label
+            id="edad-promedio"
+            name="edad-resultado"
+            class="edad-resultado"
+          ></label>
+        </p>
+      </div>
 
-    <ul id="errores">
-    </ul>
-</form>
-<button id='calcular' name="calcular">Calcular</button>
+      <ul id="errores"></ul>
+    </form>
+    <button id="calcular" name="calcular">Calcular</button>
 
-    <script src='tarea-1.js'></script>
-    <script src='pruebas.js'></script>
-</body>
+    <script src="tarea-1.js"></script>
+    <script src="pruebas.js"></script>
+  </body>
 </html>

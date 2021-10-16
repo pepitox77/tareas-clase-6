@@ -1,11 +1,10 @@
 .integrante {
     display: flex;
     flex-direction: column;
-  }
-  .error {
+}
+.error {
     border: 2px solid red;
 }
-
 .errorsBlock {
     font-size: 14px;
     color: red;
